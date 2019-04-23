@@ -1,0 +1,52 @@
+.today {
+    padding: 1rem;
+}
+
+.today .weather {
+    width: 100%;
+    max-width: 24rem;
+    margin: 0 auto;
+}
+
+.weather-bg .mask{
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: all 0.6s;
+  padding-top: 4rem;
+}
+
+.weather-bg .mask.masking {
+  background-color: #000;
+}
+
+.weather-bg.thunderstorm {
+  background-image: url('images/w-thunderstorm-bg.jpg');
+}
+
+.weather-bg.drizzle {
+    background-image: url('images/w-drizzle-bg.jpg');
+}
+
+.weather-bg.rain {
+    background-image: url('images/w-rain-bg.jpg');
+}
+
+.weather-bg.snow {
+    background-image: url('images/w-snow-bg.jpg');
+}
+
+.weather-bg.atmosphere {
+    background-image: url('images/w-atmosphere-bg.jpg');
+}
+
+.weather-bg.clear {
+    background-image: url('images/w-clear-bg.jpg');
+}
+
+.weather-bg.clouds {
+    background-image: url('images/w-clouds-bg.jpg');
+}
+
+.weather-bg.na {
+    background-image: url('images/w-na-bg.jpg');
+}

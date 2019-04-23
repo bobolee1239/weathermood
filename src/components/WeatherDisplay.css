@@ -1,0 +1,35 @@
+.weather-display {
+  color: #fff;
+  text-align: center;
+  text-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.3), 0 0 1rem rgba(0, 0, 0, 0.7);
+  position: relative;
+  transition: all 0.3s;
+  opacity: 1;
+}
+
+.weather-display.masking {
+  opacity: 0;
+}
+
+.weather-display .description {
+  position: absolute;
+  margin: 0 auto;
+  top: 0;
+  right: 2rem;
+  text-transform: capitalize;
+  opacity: 0.7;
+}
+
+.weather-display .temp {
+  position: absolute;
+  margin: 0 auto;
+  bottom: 1rem;
+  left: 2rem;
+}
+
+.weather-display img {
+  display: block;
+  width: 100%;
+  max-width: 20rem;
+  margin: 0 auto;
+}

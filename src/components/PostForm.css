@@ -1,0 +1,34 @@
+.post-form {
+
+}
+
+.post-form .alert {
+  padding: 1rem;
+}
+
+.post-form .mood {
+  margin: 0 0 0.5rem 0;
+}
+
+.post-form .mood-toggle {
+  min-width: 8.5rem;
+}
+
+.post-form .mood i {
+  text-align: center;
+  width: 1rem;
+}
+
+.post-form input {
+  width: 100%;
+  margin: 0 0 0.5rem 0;
+}
+
+@media (min-width: 576px) {
+  .post-form .mood {
+    margin: 0 0.5rem 0 0;
+  }
+  .post-form .input {
+    margin: 0 0.5rem 0 0;
+  }
+}

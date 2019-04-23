@@ -1,0 +1,15 @@
+.weather-form {
+
+}
+
+.weather-form.form {
+  padding-bottom: 1rem;
+}
+
+.weather-form .btn-form {
+  color: white;
+}
+
+.weather-form input, .weather-form button {
+  margin-top: 0.25rem;
+}
