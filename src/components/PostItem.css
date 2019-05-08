@@ -1,0 +1,52 @@
+.post-item {
+  width: 100%;
+}
+
+.post-item .post {
+  width: 100%;
+}
+
+.post-item .mood {
+  text-align: center;
+  font-size: 2rem;
+  width: 3rem;
+}
+
+.post-item .wrap {
+  width: 100%;
+  padding-left: 0.75rem;
+}
+
+.post-item .ts {
+  color: #bcbcbc;
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.post-item .text {
+  white-space: pre-wrap;
+}
+
+.post-item .vote {
+  color: #bcbcbc;
+  padding-top: 0.5rem;
+}
+
+.post-item .vote .vote-plus i {
+  color: #bcdff1;
+  padding-left: 0.5rem;
+}
+
+.tooltip-inner {
+  max-width: none !important;
+}
+
+.tooltip-inner i.vote-tooltip {
+  font-size: 1.5rem;
+  width: 2.25rem;
+  line-height: 1.75rem;
+}
+
+.tooltip-inner i.vote-tooltip:hover {
+  color: #31b0d5;
+}

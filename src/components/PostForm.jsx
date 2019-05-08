@@ -13,7 +13,7 @@ import {
 import {getMoodIcon} from 'utilities/weather.js';
 import './PostForm.css';
 
-export default class WeatherForm extends React.Component {
+export default class PostForm extends React.Component {
   static propTypes = {
     onPost: PropTypes.func,
   };
